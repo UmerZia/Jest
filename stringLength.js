@@ -1,16 +1,12 @@
 const stringLength = (word) => {
-    if (word.length >= 1 && word.length <= 10){
-        return word.length;
-    }
-    else{
-        return null;
-    }
-}
+  if (word.length >= 1 && word.length <= 10) {
+    return word.length;
+  }
 
-const reverseString = (word) => {
-    return [...word].reverse().join('');
-}
+  return null;
+};
 
+const reverseString = (word) => [...word].reverse().join('');
 
 module.exports = stringLength;
 module.exports = reverseString;

@@ -1,5 +1,4 @@
-const stringLength = require("./stringLength.js");
-const reverseString = require("./stringLength.js");
+const stringLength = require('./stringLength.js');
 
 // describe("String length", () => {
 //     test("Compare string length: ", () => {
@@ -7,9 +6,8 @@ const reverseString = require("./stringLength.js");
 //     });
 // });
 
-describe("String reverse", () => {
-    test("Compare string : ", () => {
-        expect(stringLength("ABC")).toBe("CBA");
-    });
+describe('String reverse', () => {
+  test('Compare string : ', () => {
+    expect(stringLength('ABC')).toBe('CBA');
+  });
 });
-
